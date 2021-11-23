@@ -71,7 +71,6 @@ void Load()
            storeCmd("G28 X Y F9000\n");
            storeCmd("G28 Z F1500\n");
            storeCmd("G90\n");
-           storeCmd("G1 Z337 F6000\n");
            mustStoreCmd("G1 X5 Y5 F9000\n");
            storeCmd("M82\n");
            storeCmd("G92 E0\n");
@@ -89,7 +88,6 @@ void Unload()
         storeCmd("G28 X Y F9000\n");
         storeCmd("G28 Z F1500\n");
         storeCmd("G90\n");
-        storeCmd("G1 Z337 F6000\n");
         mustStoreCmd("G1 X5 Y5 F9000\n");
         storeCmd("M82\n");
         storeCmd("G92 E0\n");

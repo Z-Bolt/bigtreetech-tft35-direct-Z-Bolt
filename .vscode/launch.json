@@ -14,12 +14,12 @@
             "name": "PIO Debug",
             "executable": "D:/GitHub/bigtreetech-tft35-direct-Z-Bolt/.pio/build/BIGTREE_TFT35_V2_0/BIQU_TFT35_APP1_V2.0.26.x.elf",
             "projectEnvName": "BIGTREE_TFT35_V2_0",
-            "toolchainBinDir": "C:/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "toolchainBinDir": "C:/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
             "internalConsoleOptions": "openOnSessionStart",
-            "svdPath": "C:/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd",
+            "svdPath": "C:/.platformio/platforms/ststm32@9.0.0/misc/svd/STM32F103xx.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
-                "task": "Pre-Debug (BIGTREE_TFT35_V2_0)"
+                "task": "Pre-Debug"
             }
         },
         {
@@ -28,9 +28,20 @@
             "name": "PIO Debug (skip Pre-Debug)",
             "executable": "D:/GitHub/bigtreetech-tft35-direct-Z-Bolt/.pio/build/BIGTREE_TFT35_V2_0/BIQU_TFT35_APP1_V2.0.26.x.elf",
             "projectEnvName": "BIGTREE_TFT35_V2_0",
-            "toolchainBinDir": "C:/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "toolchainBinDir": "C:/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
             "internalConsoleOptions": "openOnSessionStart",
-            "svdPath": "C:/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd"
+            "svdPath": "C:/.platformio/platforms/ststm32@9.0.0/misc/svd/STM32F103xx.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "D:/GitHub/bigtreetech-tft35-direct-Z-Bolt/.pio/build/BIGTREE_TFT35_V2_0/BIQU_TFT35_APP1_V2.0.26.x.elf",
+            "projectEnvName": "BIGTREE_TFT35_V2_0",
+            "toolchainBinDir": "C:/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/.platformio/platforms/ststm32@9.0.0/misc/svd/STM32F103xx.svd",
+            "loadMode": "manual"
         }
     ]
 }
