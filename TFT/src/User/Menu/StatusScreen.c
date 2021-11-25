@@ -339,7 +339,7 @@ void menuStatus(void)
       case KEY_ICON_7: storeCmd("M81\n");   break;
       default:break;
     }
-   // toggleTool();
+   // toggleTool(); //Z-Bolt
     loopProcess();
   }
 }
