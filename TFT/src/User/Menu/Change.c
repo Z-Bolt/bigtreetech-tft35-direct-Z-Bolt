@@ -71,7 +71,7 @@ void Load()
            storeCmd("G28 X Y F9000\n");
            storeCmd("G28 Z F1500\n");
            storeCmd("G90\n");
-           mustStoreCmd("G1 X5 Y5 F9000\n");
+           mustStoreCmd("G1 X5 Y5 Z50 F9000\n");
            storeCmd("M82\n");
            storeCmd("G92 E0\n");
            //storeCmd("M104 S210\n");
@@ -88,7 +88,7 @@ void Unload()
         storeCmd("G28 X Y F9000\n");
         storeCmd("G28 Z F1500\n");
         storeCmd("G90\n");
-        mustStoreCmd("G1 X5 Y5 F9000\n");
+        mustStoreCmd("G1 X5 Y5 Z50 F9000\n");
         storeCmd("M82\n");
         storeCmd("G92 E0\n");
         heatSetTargetTemp(1, 210);
